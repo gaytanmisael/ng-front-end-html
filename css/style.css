@@ -1,0 +1,118 @@
+* {
+	margin:0px;
+	padding: 0px;
+	-webkit-box-sizing:border-box;
+	-mox-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+a img {
+	border: none;
+}
+
+a{
+	color: #333;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #333;
+	text-decoration: none;
+}
+
+body {
+	background: #fff;
+	color: #333;
+	cursor: default;
+	font: 100%/1.3em Helvetica, Arial, Sans-serif;
+	min-width: 1058px;
+	width: 100%;
+}
+
+.main-color-bg {
+	background: #E74c3c;
+}
+
+.header {
+	background: #fff;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
+	position:relative;
+}
+
+.header-row-1 {
+	height: 50px;
+	overflow: hidden;
+}
+
+.header-row-1:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 1px;
+}
+
+.header-row-2 {
+	border-top: 1px solid #e4e4e4;
+	height: 50px;
+	overflow: hidden;
+}
+
+.header-row-2:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 1px;
+}
+
+.header-logo {
+	display: block;
+	float: left;
+	height: 50px;
+	margin: 0 10px 0 15px;
+}
+
+#logo-img {
+	margin: 5px 0 0 0;
+}
+
+.header-location-name {
+	color: #2801d7;
+	display: block;
+	float: left;
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 57px;
+	margin: 0 10px 0 0;
+}
+
+.location-icon {
+	background: ;
+	background-size: 14px 22px;
+	display: inline-block;
+	height: 50px;
+	margin: 0;
+	vertical-align: middle;
+	width: 14px;
+}
+
+.header-location-link, .header-location-link:visited, .header-location-link:hover, .header-location-link:active {
+	color:#f60;
+	display: block;
+	float: left;
+	font-size: 1em;
+	line-height: 57px;
+	text-decoration: none;
+}
+
+.header-account-link, .header-account-link:visited, .header-account-link:hover, .header-account-link:active {
+	color: #8c8c8c;
+	display: block;
+	float: right;
+	margin: 0 15px 0 0;
+	line-height: 50px;
+	text-decoration: none;
+}
