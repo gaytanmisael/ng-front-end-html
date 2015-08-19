@@ -339,7 +339,6 @@ body {
 #menu {
 	display: none;
 	background: #f7f7f7;
-	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
 }
 
@@ -400,4 +399,123 @@ body {
 	clear: both;
 	visibility: hidden;
 	font-size:1px;
+}
+
+.menu-icon-home {
+	background: url(../img/icn-home.svg) no-repeat center center #f8f8ff;
+}
+
+.menu-icon-entry {
+	background: url(../img/icn-entry.svg)no-repeat center center #f8f8ff;
+}
+
+.menu-icon-location {
+	background: url(../img/icn-location.svg) no-repeat center center #f8f8ff;
+}
+
+.menu-icon-account {
+	background: url(../img/icn-account.svg) no-repeat center center #f8f8ff;
+}
+
+/*************** Menu Contact *******************/
+.menu-contact-header {
+	color: #c6c6c6;
+	font-style: italic;
+	font-size:.813em;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.menu-call {
+	display: block;
+	color: #2a343f;
+	font-size: 1em;
+	height: 50px;
+	line-height: 50px;
+	margin: 20px auto;
+	text-align: center;
+	width: 226px;
+}
+
+.menu-call-icon {
+	background: url(../img/help-call.svg) no-repeat left center;
+	background-size: 24px 33px;
+	display: inline-block;
+	height: 50px;
+	margin: 0 5px 0 0 ;
+	vertical-align: middle;
+	width: 24px;
+}
+
+.menu-chat, .menu-chat:visited, .menu-chat:hover, .menu-chat:active {
+	background-image: linear-gradient(-180deg, #f1f0f0 0%, #e6e6e6 100%);
+	border:1px solid #e6e6e6;
+	border-radius: 3px;
+	display: block;
+	color: #2a343f;
+	font-size: 1em;
+	margin: 20px auto;
+	text-align: center;
+	text-decoration: none !important;
+	width: 226px;
+}
+
+.menu-chat-icon {
+	background: url(../img/help-chat.svg) no-repeat left 45%;
+	background-size: 30px 27px;
+	display: inline-block;
+	margin:0 5px 0 0;
+	height: 50px;
+	vertical-align: middle;
+	width: 30px;
+}
+
+/*************** Menu Socials *******************/
+.menu-socials {
+	text-align: center;
+	margin: 30px 0;
+}
+
+.menu-social {
+	display: inline-block;
+	height: 26px;
+	margin: 12px;
+	overflow: hidden;
+	padding: 0;
+	text-indent: -999px;
+	width: 26px;
+}
+
+/*************** Menu Footer ********************/
+.menu-footers {
+	margin: 30px 0 0 0;
+	padding: 0 0 30px 0;
+}
+
+.menu-footer a {
+	color: #535353;
+	display: block;
+	font-size: 1em;
+	height: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+
+/***************** Footer ***********************/
+#footer {
+	overflow: hidden;
+	margin-top: 30px;
+}
+
+.footer-info {
+	overflow: hidden;
+	font-size: 14px;
+	margin: 10px 0 5px;
+}
+
+.inner-wrap {
+	position: relative;
+	width: 1140px;
+	margin: 0 auto;
+	overflow: hidden;
 }
