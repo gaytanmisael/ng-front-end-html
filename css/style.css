@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:200,400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900);
 * {
 	margin:0px;
 	padding: 0px;
@@ -27,7 +29,7 @@ body {
 	background: #fff;
 	color: #333;
 	cursor: default;
-	font: 100%/1.3em Helvetica, Arial, Sans-serif;
+	font: 100%/1.3em 'Lato' Helvetica, Arial, Sans-serif;
 	min-width: 1058px;
 	width: 100%;
 }
@@ -83,7 +85,7 @@ body {
 }
 
 .header-location-name {
-	color: #2801d7;
+	color: #1f6683;
 	display: block;
 	float: left;
 	font-size: 1em;
@@ -113,7 +115,7 @@ body {
 }
 
 .header-location-link, .header-location-link:visited, .header-location-link:hover, .header-location-link:active {
-	color:#f60;
+	color: #e34b39;
 	display: block;
 	float: left;
 	font-size: 1em;
@@ -504,7 +506,6 @@ body {
 /***************** Footer ***********************/
 #footer {
 	overflow: hidden;
-	margin-top: 30px;
 }
 
 .footer-info {
@@ -519,3 +520,11 @@ body {
 	margin: 0 auto;
 	overflow: hidden;
 }
+
+/**************** Main Section *****************/
+.feat-section {
+	overflow: hidden;
+	border-bottom: 1px solid #e3e3e3;
+	padding-bottom: 20px;
+}
+
